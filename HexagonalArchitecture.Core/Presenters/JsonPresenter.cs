@@ -24,7 +24,7 @@ namespace HexagonalArchitecture.Core.Presenters
                 throw new Exception("Data format is not allowed. Only primitive types and objects with ClientResult attribute are allowed.");
 
             this.ContentResult.StatusCode = (int)(response.Success ? HttpStatusCode.OK : HttpStatusCode.BadRequest);
-            ContentResult.Content = JsonConvert.SerializeObject(response);
+            this.ContentResult.Content = JsonConvert.SerializeObject(response);
         }
     }
 }

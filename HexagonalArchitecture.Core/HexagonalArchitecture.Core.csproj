@@ -3,10 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>Maxime AUBRY</Authors>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Company />
     <Description>Library for projects using hexagonal architecture.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/maxime-aubry/HexagonalArchitecture.Core</PackageProjectUrl>
+    <PackageTags>Hexagonal Architecture</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
